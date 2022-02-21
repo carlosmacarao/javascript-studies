@@ -8,4 +8,4 @@ document.write('Is written: ' + p1.innerHTML)
 
 let bdy = window.document.body;
 
-bdy.style.background = '#fff'
+bdy.style.background = '#fff '
