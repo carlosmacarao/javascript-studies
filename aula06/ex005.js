@@ -1,6 +1,11 @@
-var p1 = document.getElementsByTagName('p')[1];
+var p1 = document.querySelectorAll('p')[1]
 
-var d = document.getElementById('msg')
+p1.style.color = 'blue'
 
+var d = document.querySelector('div#msg')
 
+document.write('Is written: ' + p1.innerHTML)
 
+let bdy = window.document.body;
+
+bdy.style.background = '#fff'
