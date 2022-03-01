@@ -1,0 +1,22 @@
+body {
+    font: normal 1.2em Arial;
+    background-image: linear-gradient(to right, crimson, black);
+    text-align: center;
+    color: white;
+}
+
+input.main {
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    font: normal 1.1em Arial;
+}
+
+input#send {
+    border: 1px solid green;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    font: normal 0.8em Arial;
+}
