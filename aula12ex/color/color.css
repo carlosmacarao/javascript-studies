@@ -1,0 +1,15 @@
+
+body {
+    background-color: rgb(40, 194, 233);
+    font: normal 1.2em Arial;
+    color: white;
+}
+
+main {
+    text-align: center;
+}
+
+input {
+    border: 1px solid white;
+    width: 70px;
+}
