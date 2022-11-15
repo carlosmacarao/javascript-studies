@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="color.css">
     <title>Change Background</title>
 </head>
-<body>
-    <main>Select the color: <input type="color" name="color" id="color" onmouseout="change()"></main>
+<body onload="change()">
+    <main>Select the color: <input type="color" name="color" id="color" onmouseout="change()">
+    
+        <div id="res">
+
+        </div>
+    </main>
 
     <script src="color.js"></script>
 </body>
